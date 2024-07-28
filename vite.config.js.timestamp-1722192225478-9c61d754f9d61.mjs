@@ -1,0 +1,16 @@
+// vite.config.js
+import { resolveConfig } from "file:///C:/Users/variv/Documents/GitHub/timeline-test/node_modules/vite/dist/node/index.js";
+import handlebars from "file:///C:/Users/variv/Documents/GitHub/timeline-test/node_modules/vite-plugin-handlebars/dist/index.js";
+var __vite_injected_original_dirname = "C:\\Users\\variv\\Documents\\GitHub\\timeline-test";
+var vite_config_default = {
+  plugins: [handlebars({
+    context: {
+      title: "Hello, world!"
+    },
+    partialDirectory: resolveConfig(__vite_injected_original_dirname, "./src/partials")
+  })]
+};
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFx2YXJpdlxcXFxEb2N1bWVudHNcXFxcR2l0SHViXFxcXHRpbWVsaW5lLXRlc3RcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIkM6XFxcXFVzZXJzXFxcXHZhcml2XFxcXERvY3VtZW50c1xcXFxHaXRIdWJcXFxcdGltZWxpbmUtdGVzdFxcXFx2aXRlLmNvbmZpZy5qc1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9pbXBvcnRfbWV0YV91cmwgPSBcImZpbGU6Ly8vQzovVXNlcnMvdmFyaXYvRG9jdW1lbnRzL0dpdEh1Yi90aW1lbGluZS10ZXN0L3ZpdGUuY29uZmlnLmpzXCI7aW1wb3J0IHsgcmVzb2x2ZUNvbmZpZyB9IGZyb20gXCJ2aXRlXCJcclxuaW1wb3J0IGhhbmRsZWJhcnMgZnJvbSAndml0ZS1wbHVnaW4taGFuZGxlYmFycydcclxuXHJcbmV4cG9ydCBkZWZhdWx0IHtcclxuXHRwbHVnaW5zOiBbaGFuZGxlYmFycyh7XHJcblx0XHRjb250ZXh0OiB7XHJcblx0XHRcdHRpdGxlOiAnSGVsbG8sIHdvcmxkIScsXHJcblx0XHR9LFxyXG5cdFx0cGFydGlhbERpcmVjdG9yeTogcmVzb2x2ZUNvbmZpZyhfX2Rpcm5hbWUsICcuL3NyYy9wYXJ0aWFscycpLFxyXG5cdH0pXSxcclxufSJdLAogICJtYXBwaW5ncyI6ICI7QUFBcVUsU0FBUyxxQkFBcUI7QUFDblcsT0FBTyxnQkFBZ0I7QUFEdkIsSUFBTSxtQ0FBbUM7QUFHekMsSUFBTyxzQkFBUTtBQUFBLEVBQ2QsU0FBUyxDQUFDLFdBQVc7QUFBQSxJQUNwQixTQUFTO0FBQUEsTUFDUixPQUFPO0FBQUEsSUFDUjtBQUFBLElBQ0Esa0JBQWtCLGNBQWMsa0NBQVcsZ0JBQWdCO0FBQUEsRUFDNUQsQ0FBQyxDQUFDO0FBQ0g7IiwKICAibmFtZXMiOiBbXQp9Cg==

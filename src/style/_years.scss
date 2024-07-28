@@ -1,0 +1,19 @@
+.years {
+	display: flex;
+	gap: 24px;
+	@extend .font_mono;
+	padding: 0 24px;
+
+	@media (max-width: $mobile) {
+		padding: 16px 0;
+	}
+
+	&__year {
+		color: color-mix(in srgb, var(--color-white) 50%, transparent 50%);
+		transition: color ease .3s;
+
+		&.is-active {
+			color: var(--color-white);
+		}
+	}
+}

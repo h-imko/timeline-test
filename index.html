@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite App</title>
+		<link rel="stylesheet" href="/src/style/style.scss">
+		<script type="module" src="/src/main.js" defer></script>
+	</head>
+
+	<body>
+		<header></header>
+		<main>
+			<div class="page">
+				<div class="page__aside">
+					<button class="page__back">
+						<span class="icon icon--arrow-fw"></span>
+						<span>back</span>
+					</button>
+				</div>
+				<div class="page__content">
+					<div class="years">
+						<div class="years__year is-active"><span>2023</span></div>
+						<div class="years__year"><span>2022</span></div>
+						<div class="years__year"><span>2021</span></div>
+						<div class="years__year"><span>2019</span></div>
+					</div>
+					<div class="timeline-wrapper">
+						<div class="timeline">
+							{{> sectionStart startSection}}
+							{{#each sections}}
+								{{> section}}
+							{{/each}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+	</body>
+
+</html>

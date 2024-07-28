@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "BrutalType";
+	src: url(/public/font/BrutalType.woff2);
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MessinaSans";
+	src: url(/public/font/MessinaSans-Regular.woff2);
+	font-weight: 400;
+	font-display: swap;
+}
+
+a {
+	color: inherit;
+}
+
+.font_mono-11-25 {
+	font-family: "BrutalType", sans-serif;
+	font-size: 11.5px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.07em;
+}
+
+.font_mono {
+	font-family: "BrutalType", sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.07em;
+}
+
+.font_body-16 {
+	font-family: "MessinaSans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.015em;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	appearance: textfield;
+
+	&::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+	}
+}
