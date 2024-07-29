@@ -73,8 +73,8 @@ document.addEventListener('DOMContentLoaded', function () {
 			let activeWidth = timelineStyle.getPropertyValue("--section-size-active")
 
 			if (nextItem != currentItem && !isBlocked) {
-				isBlocked = true
 				if (!isMobile) {
+					isBlocked = true
 					nextItem.classList.add("is-active")
 					currentItem.classList.remove("is-active")
 					let tl = gsap.timeline({
@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
 					}
 				} else {
 					if (nextItem.classList.contains("is-visible")) {
+						isBlocked = true
 						gsap.to(timeline, {
 							scrollTo: nextItem,
 							duration: duration,
