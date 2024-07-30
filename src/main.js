@@ -128,11 +128,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	function scrollTo(nextItem, nextIndex) {
 		isBlocked = true
+		console.log("start")
+
 		gsap.to(timeline, {
 			scrollTo: nextItem
 		}).then(() => {
 			currentIndex = nextIndex
 			isBlocked = false
+			console.log("end")
+
 		})
 	}
 
@@ -153,21 +157,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		yearsButtons.forEach((currentButton, index) => {
 			currentButton.addEventListener("click", () => {
-				let nextItem = yearsHeaders.item(index)
-				let nextIndex = [...targets].findIndex(section => nextItem == section)
-				if (isMobile) {
-					scrollTo(nextItem, nextIndex)
-				} else {
-					if (nextIndex > currentIndex) {
-						goNextDesktop(nextItem, nextIndex)
-					} else if (nextIndex < currentIndex) {
-						resetAll()
-						goPrevDesktop(nextItem, nextIndex)
+				if (!isBlocked) {
+					let nextItem = yearsHeaders.item(index)
+					let nextIndex = [...targets].findIndex(section => nextItem == section)
+					if (isMobile) {
+						scrollTo(nextItem, nextIndex)
+					} else {
+						if (nextIndex > currentIndex) {
+							isBlocked = true
+							goNextDesktop(nextItem, nextIndex)
+						} else if (nextIndex < currentIndex) {
+							isBlocked = true
+							resetAll()
+							goPrevDesktop(nextItem, nextIndex)
+						}
 					}
+					yearsButtons.forEach(button => {
+						button.classList.toggle("is-active", button == currentButton)
+					})
 				}
-				yearsButtons.forEach(button => {
-					button.classList.toggle("is-active", button == currentButton)
-				})
 			})
 		})
 	}

@@ -11,6 +11,7 @@
 	&__year {
 		color: color-mix(in srgb, var(--color-white) 50%, transparent 50%);
 		transition: color ease .3s;
+		cursor: pointer;
 
 		&.is-active {
 			color: var(--color-white);
