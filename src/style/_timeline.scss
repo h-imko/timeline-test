@@ -65,6 +65,10 @@
 			padding: 24px 0;
 		}
 
+		&:first-child {
+			width: var(--section-size-active);
+		}
+
 		&--start {
 			padding-left: 10px;
 			border-left: none;
@@ -76,7 +80,9 @@
 		}
 
 		&:not(&--start) + &--start {
-			margin-left: 210px;
+			@media (min-width: $mobile) {
+				margin-left: 210px;
+			}
 		}
 
 		&.is-active {
