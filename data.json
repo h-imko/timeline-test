@@ -1,44 +1,45 @@
 {
 	"years": [
 		{
+			"year": 2023,
 			"sections": [
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/1.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/2.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/3.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/1.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/2.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/3.png",
@@ -46,49 +47,50 @@
 				}
 			],
 			"startSection": {
-				"date": 2023,
+				"month": 2023,
 				"title": "The adventure begins. \n <br> \n We can’t wait to show you \n <br> \n what comes next"
 			}
 		},
 		{
+			"year": 2022,
 			"sections": [
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/1.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/2.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/3.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/1.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/2.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/3.png",
@@ -96,49 +98,50 @@
 				}
 			],
 			"startSection": {
-				"date": 2023,
+				"month": 2023,
 				"title": "The adventure begins. \n <br> \n We can’t wait to show you \n <br> \n what comes next"
 			}
 		},
 		{
+			"year": 2021,
 			"sections": [
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/1.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/2.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/3.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/1.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/2.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/3.png",
@@ -146,49 +149,50 @@
 				}
 			],
 			"startSection": {
-				"date": 2023,
+				"month": 2023,
 				"title": "The adventure begins. \n <br> \n We can’t wait to show you \n <br> \n what comes next"
 			}
 		},
 		{
+			"year": 2019,
 			"sections": [
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/1.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/2.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/3.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/1.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/2.png",
 					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste ipsam velit repellendus exercitationem enim, a ab laudantium temporibus eum aut officiis dolor assumenda est veritatis nihil esse libero. Nisi provident, sequi ut consectetur aspernatur magnam, molestias nemo quia error facere qui, ad veritatis tenetur cum culpa ipsam repellendus voluptate."
 				},
 				{
-					"date": "Jun, 2023",
+					"month": "Jun",
 					"topic": "team ∙ Design",
 					"caption": "We’re thinking about all the ways in which mobility is changing",
 					"img": "src/img/3.png",
@@ -196,7 +200,7 @@
 				}
 			],
 			"startSection": {
-				"date": 2023,
+				"month": 2023,
 				"title": "The adventure begins. \n <br> \n We can’t wait to show you \n <br> \n what comes next"
 			}
 		}

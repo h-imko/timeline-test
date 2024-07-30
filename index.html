@@ -21,16 +21,15 @@
 				</div>
 				<div class="page__content">
 					<div class="years">
-						<div class="years__year is-active"><span>2023</span></div>
-						<div class="years__year"><span>2022</span></div>
-						<div class="years__year"><span>2021</span></div>
-						<div class="years__year"><span>2019</span></div>
+						{{#each years }}
+							<div class="years__year {{#unless @index}}is-active{{/unless}}"><span>{{year}}</span></div>
+						{{/each}}
 					</div>
 					<div class="timeline">
 						{{#each years }}
 							{{> sectionStart startSection}}
-							{{#each sections}}
-								{{> section}}
+							{{#each sections }}
+								{{> section year = ../year}}
 							{{/each}}
 						{{/each}}
 					</div>
