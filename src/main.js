@@ -55,16 +55,24 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 	Observer.create({
+		preventDefault: true,
 		target: timeline,
 		lockAxis: true,
 		onChange: (self) => {
-			let scrollDelta = self.deltaY
+			let scrollDelta = self.deltaY ? self.deltaY : self.deltaX
+
+			// если перетягивание свайпом
 			if (window.TouchEvent && self.event instanceof TouchEvent) {
 				scrollDelta *= -1
 				if (!isMobile) {
 					scrollDelta = -self.deltaX
 				}
 			}
+			// если перетягивание зажатым курсором а не свайпом	
+			else if (self.isDragging && window.TouchEvent && !(self.event instanceof TouchEvent)) {
+				scrollDelta = isMobile ? -self.deltaY : -self.deltaX
+			}
+
 			let direction = Math.sign(scrollDelta)
 			let nextIndex = limitNimber(0, (currentIndex ?? startIndex) + direction, targets.length - 1)
 			let nextItem = targets.item(nextIndex)
@@ -120,9 +128,22 @@ document.addEventListener('DOMContentLoaded', function () {
 								isBlocked = false
 							}
 						})
+					} else {
+						gsap.to(timeline, {
+							scrollTo: `+=${scrollDelta}`,
+							duration: self.isDragging ? 0 : Math.abs(scrollDelta / 100),
+						})
 					}
 				}
 			}
 		}
 	})
+
 })
+
+// function years() {
+// 	let yearsButtons = document.querySelectorAll(".years__year")
+// 	let yearsHeaders = document.querySelectorAll(".timeline__section--start")
+
+// 	yearsButtons
+// }

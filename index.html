@@ -26,13 +26,13 @@
 						<div class="years__year"><span>2021</span></div>
 						<div class="years__year"><span>2019</span></div>
 					</div>
-					<div class="timeline-wrapper">
-						<div class="timeline">
+					<div class="timeline">
+						{{#each years }}
 							{{> sectionStart startSection}}
 							{{#each sections}}
 								{{> section}}
 							{{/each}}
-						</div>
+						{{/each}}
 					</div>
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 .timeline {
 	--duration: 1s;
 	--gap: 40px;
-	overflow: auto;
+	overflow: hidden;
 	display: flex;
 	position: relative;
 	flex-grow: 1;
@@ -9,6 +9,8 @@
 	--section-size-active: 35cqw;
 	--section-safe-width: 25cqw;
 	--section-padding: 22px;
+	user-select: none;
+	overscroll-behavior: none;
 
 	@media (max-width: $laptop) {
 		--section-size: 40cqw;
@@ -54,6 +56,8 @@
 		gap: 24px;
 		min-width: 0;
 		overflow: hidden;
+		background-color: var(--color-black);
+		position: relative;
 
 		@media (max-width:$mobile) {
 			width: 100%;
@@ -63,11 +67,16 @@
 
 		&--start {
 			padding-left: 10px;
+			border-left: none;
 
 			@media (max-width:$mobile) {
 				padding-left: 0;
 				min-height: calc(65% - var(--gap));
 			}
+		}
+
+		&:not(&--start) + &--start {
+			margin-left: 210px;
 		}
 
 		&.is-active {
@@ -216,17 +225,5 @@
 				border-radius: 2px;
 			}
 		}
-	}
-}
-
-.timeline-wrapper {
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-
-	.timeline {
-		margin-bottom: -20px;
-		padding-bottom: 20px;
 	}
 }
