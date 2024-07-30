@@ -128,15 +128,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	function scrollTo(nextItem, nextIndex) {
 		isBlocked = true
-		console.log("start")
 
 		gsap.to(timeline, {
 			scrollTo: nextItem
 		}).then(() => {
 			currentIndex = nextIndex
 			isBlocked = false
-			console.log("end")
-
 		})
 	}
 
@@ -185,25 +182,25 @@ document.addEventListener('DOMContentLoaded', function () {
 		target: timeline,
 		lockAxis: true,
 		onChange: (self) => {
-			let scrollDelta = self.deltaY ? self.deltaY : self.deltaX
-			// если перетягивание свайпом
-			if (window.TouchEvent && self.event instanceof TouchEvent) {
-				scrollDelta *= -1
-				if (!isMobile) {
-					scrollDelta = -self.deltaX
-				}
-			}
-			// если перетягивание зажатым курсором а не свайпом	
-			else if (self.isDragging && window.TouchEvent && !(self.event instanceof TouchEvent)) {
-				scrollDelta = isMobile ? -self.deltaY : -self.deltaX
-			}
-
-			let direction = Math.sign(scrollDelta)
-			let nextIndex = limitNimber(0, currentIndex + direction, targets.length - 1)
-			let nextItem = targets.item(nextIndex)
-
-
 			if (!isBlocked) {
+				let scrollDelta = self.deltaY ? self.deltaY : self.deltaX
+				// если перетягивание свайпом
+				if (window.TouchEvent && self.event instanceof TouchEvent) {
+					scrollDelta *= -1
+					if (!isMobile) {
+						scrollDelta = -self.deltaX
+					}
+				}
+				// если перетягивание зажатым курсором а не свайпом	
+				else if (self.isDragging && window.TouchEvent && !(self.event instanceof TouchEvent)) {
+					scrollDelta = isMobile ? -self.deltaY : -self.deltaX
+				}
+
+				let direction = Math.sign(scrollDelta)
+				let nextIndex = limitNimber(0, currentIndex + direction, targets.length - 1)
+				let nextItem = targets.item(nextIndex)
+
+
 				if (nextItem != currentItem && !isMobile) {
 					isBlocked = true
 					nextItem.classList.add("is-active")
